@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PocketDrum</string>
+    <string name="physicalfeedback_title">Physical Feedback</string>
+    <string name="physicalfeedback_summary">Use vibration when pressing the pads</string>
+    <string name="settings_title">Settings</string>
+    <string name="inline_preferences">Preferences</string>
+    <string name="settings_label">Settings</string>
+    <string name="about_label">About</string>
+    <string name="about_text">Pocket Drum is a small drum machine for the Android platform. The application is written by Morten Teinum</string>
+    <string name="about_title">About Pocket Drum</string>
+    <string name="pitch_title">Pitch</string>
+    <string name="pitch_summary">Change the pitch of the drum sound</string>
+    <string name="pitch_default">1.0</string>
+    <string name="banner_title">Banner</string>
+    <string name="banner_summary">Show banners</string>
+</resources>

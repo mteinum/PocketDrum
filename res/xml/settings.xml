@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+            android:title="@string/inline_preferences">
+    
+<CheckBoxPreference
+            android:key="physicalfeedback"
+            android:title="@string/physicalfeedback_title"
+            android:summary="@string/physicalfeedback_summary"
+            android:defaultValue="true" />
+
+<ListPreference android:key="pitch"
+    			android:title="@string/pitch_title"
+    			android:entryValues="@array/pitchValues"
+				android:entries="@array/pitchWords"
+				android:defaultValue="@string/pitch_default"
+				android:summary="@string/pitch_summary"/>
+
+<CheckBoxPreference android:key="banner"
+    				android:title="@string/banner_title"
+    				android:summary="@string/banner_summary"
+    				android:defaultValue="true"/>
+
+</PreferenceCategory>
+
+</PreferenceScreen>
